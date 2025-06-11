@@ -1,4 +1,4 @@
-# us-Accidents
+# US Accidents Analysis with RAPIDS & cuDF
 
 This project focuses on analyzing and preprocessing a large-scale dataset of road accidents in the United States. By leveraging **GPU-accelerated technologies** such as **RAPIDS cuDF** and **Dask**, heavy data operations are performed significantly faster than with traditional CPU-based approaches.
 
@@ -50,8 +50,8 @@ This project focuses on analyzing and preprocessing a large-scale dataset of roa
 
 ```
 
-usaccident.ipynb                  # Main notebook for data processing
-kaggle.json                 # API Key for Kaggle (should be uploaded in Colab)
+usaccident.ipynb              # Main notebook for data processing
+kaggle.json                   # API Key for Kaggle (should be uploaded in Colab)
 US\_Accidents\_March23.csv    # The main dataset after extraction
 
 ```
@@ -61,4 +61,10 @@ US\_Accidents\_March23.csv    # The main dataset after extraction
 - This notebook is designed for **Google Colab with GPU enabled**.
 - Using `cuDF` allows large-scale data handling with less memory and more speed.
 - Make sure to upload your `kaggle.json` file and set proper permissions.
+
+
+## 📉 Memory Optimization Summary
+
+- **Original size**: ~3.24 GB  
+- **Optimized size**: ~0.968 GB  
 
