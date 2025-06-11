@@ -40,7 +40,7 @@ This project focuses on analyzing and preprocessing a large-scale dataset of roa
 
 ##  Technologies Used
 
-- [RAPIDS cuDF](https://rapids.ai/)
+- RAPIDS cuDF
 - Google Colab with GPU
 - Dask
 - Pandas / Scikit-learn
@@ -63,7 +63,7 @@ US\_Accidents\_March23.csv    # The main dataset after extraction
 - Make sure to upload your `kaggle.json` file and set proper permissions.
 
 
-## 📉 Memory Optimization Summary
+##  Memory Optimization Summary
 
 - **Original size**: ~3.24 GB  
 - **Optimized size**: ~0.968 GB  
